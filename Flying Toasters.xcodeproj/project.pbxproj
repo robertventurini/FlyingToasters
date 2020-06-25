@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1F918E24A2EC0A00328849 /* FlyingToasterPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF4BEF62234F6CE000D5A44 /* FlyingToasterPreferencesController.xib */; };
+		AB3BE46A2234FDE1004A6626 /* FlyingToasterPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEF52234F6CE000D5A44 /* FlyingToasterPreferencesController.m */; };
+		AB3BE46B2234FDE1004A6626 /* FlyingToasterScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEF82234F6CE000D5A44 /* FlyingToasterScreenSaverView.m */; };
+		AB3BE46C2234FDE1004A6626 /* FlyingToastersView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEFA2234F6CE000D5A44 /* FlyingToastersView.m */; };
+		AB3BE46D2234FDE1004A6626 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEFD2234F6CE000D5A44 /* ScreenSaverScene.m */; };
+		AB3BE46E2234FDE1004A6626 /* ToasterDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BF0A2234F6CE000D5A44 /* ToasterDefaults.m */; };
+		AB3BE4702234FE0D004A6626 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = AB3BE46F2234FE0D004A6626 /* Textures */; };
+		AB3BE4712234FE14004A6626 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = AB3BE46F2234FE0D004A6626 /* Textures */; };
+		ABF4BF0B2234F6CE000D5A44 /* FlyingToasterPreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF4BEF42234F6CE000D5A44 /* FlyingToasterPreferencesController.h */; };
+		ABF4BF0C2234F6CE000D5A44 /* FlyingToasterPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEF52234F6CE000D5A44 /* FlyingToasterPreferencesController.m */; };
+		ABF4BF0D2234F6CE000D5A44 /* FlyingToasterPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF4BEF62234F6CE000D5A44 /* FlyingToasterPreferencesController.xib */; };
+		ABF4BF0E2234F6CE000D5A44 /* FlyingToasterScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF4BEF72234F6CE000D5A44 /* FlyingToasterScreenSaverView.h */; };
+		ABF4BF0F2234F6CE000D5A44 /* FlyingToasterScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEF82234F6CE000D5A44 /* FlyingToasterScreenSaverView.m */; };
+		ABF4BF102234F6CE000D5A44 /* FlyingToastersView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF4BEF92234F6CE000D5A44 /* FlyingToastersView.h */; };
+		ABF4BF112234F6CE000D5A44 /* FlyingToastersView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEFA2234F6CE000D5A44 /* FlyingToastersView.m */; };
+		ABF4BF132234F6CE000D5A44 /* ScreenSaverScene.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF4BEFC2234F6CE000D5A44 /* ScreenSaverScene.h */; };
+		ABF4BF142234F6CE000D5A44 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEFD2234F6CE000D5A44 /* ScreenSaverScene.m */; };
+		ABF4BF1D2234F6CE000D5A44 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF4BF072234F6CE000D5A44 /* thumbnail.png */; };
+		ABF4BF1E2234F6CE000D5A44 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF4BF082234F6CE000D5A44 /* thumbnail@2x.png */; };
+		ABF4BF1F2234F6CE000D5A44 /* ToasterDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF4BF092234F6CE000D5A44 /* ToasterDefaults.h */; };
+		ABF4BF202234F6CE000D5A44 /* ToasterDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BF0A2234F6CE000D5A44 /* ToasterDefaults.m */; };
+		ABF4BF2B2234F849000D5A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BF2A2234F849000D5A44 /* AppDelegate.m */; };
+		ABF4BF2D2234F849000D5A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BF2C2234F849000D5A44 /* main.m */; };
+		ABF4BF2F2234F849000D5A44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4BF2E2234F849000D5A44 /* Images.xcassets */; };
+		ABF4BF322234F849000D5A44 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF4BF302234F849000D5A44 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB3BE46F2234FE0D004A6626 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = "<group>"; };
+		ABF4BEE62234F602000D5A44 /* Flying Toasters.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flying Toasters.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4BEEA2234F602000D5A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4BEF42234F6CE000D5A44 /* FlyingToasterPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingToasterPreferencesController.h; sourceTree = "<group>"; };
+		ABF4BEF52234F6CE000D5A44 /* FlyingToasterPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingToasterPreferencesController.m; sourceTree = "<group>"; };
+		ABF4BEF62234F6CE000D5A44 /* FlyingToasterPreferencesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlyingToasterPreferencesController.xib; sourceTree = "<group>"; };
+		ABF4BEF72234F6CE000D5A44 /* FlyingToasterScreenSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingToasterScreenSaverView.h; sourceTree = "<group>"; };
+		ABF4BEF82234F6CE000D5A44 /* FlyingToasterScreenSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingToasterScreenSaverView.m; sourceTree = "<group>"; };
+		ABF4BEF92234F6CE000D5A44 /* FlyingToastersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingToastersView.h; sourceTree = "<group>"; };
+		ABF4BEFA2234F6CE000D5A44 /* FlyingToastersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingToastersView.m; sourceTree = "<group>"; };
+		ABF4BEFC2234F6CE000D5A44 /* ScreenSaverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSaverScene.h; sourceTree = "<group>"; };
+		ABF4BEFD2234F6CE000D5A44 /* ScreenSaverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverScene.m; sourceTree = "<group>"; };
+		ABF4BF072234F6CE000D5A44 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		ABF4BF082234F6CE000D5A44 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		ABF4BF092234F6CE000D5A44 /* ToasterDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToasterDefaults.h; sourceTree = "<group>"; };
+		ABF4BF0A2234F6CE000D5A44 /* ToasterDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToasterDefaults.m; sourceTree = "<group>"; };
+		ABF4BF252234F849000D5A44 /* Flying Toaster Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flying Toaster Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4BF282234F849000D5A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4BF292234F849000D5A44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF4BF2A2234F849000D5A44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF4BF2C2234F849000D5A44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF4BF2E2234F849000D5A44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF4BF312234F849000D5A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF4BEE22234F602000D5A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4BF222234F849000D5A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF4BEDC2234F602000D5A44 = {
+			isa = PBXGroup;
+			children = (
+				ABF4BEE82234F602000D5A44 /* Flying Toasters */,
+				ABF4BF262234F849000D5A44 /* Flying Toaster Test */,
+				ABF4BEE72234F602000D5A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF4BEE72234F602000D5A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4BEE62234F602000D5A44 /* Flying Toasters.saver */,
+				ABF4BF252234F849000D5A44 /* Flying Toaster Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF4BEE82234F602000D5A44 /* Flying Toasters */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4BEF42234F6CE000D5A44 /* FlyingToasterPreferencesController.h */,
+				ABF4BEF52234F6CE000D5A44 /* FlyingToasterPreferencesController.m */,
+				ABF4BEF62234F6CE000D5A44 /* FlyingToasterPreferencesController.xib */,
+				ABF4BEF72234F6CE000D5A44 /* FlyingToasterScreenSaverView.h */,
+				ABF4BEF82234F6CE000D5A44 /* FlyingToasterScreenSaverView.m */,
+				ABF4BEF92234F6CE000D5A44 /* FlyingToastersView.h */,
+				ABF4BEFA2234F6CE000D5A44 /* FlyingToastersView.m */,
+				ABF4BEFC2234F6CE000D5A44 /* ScreenSaverScene.h */,
+				ABF4BEFD2234F6CE000D5A44 /* ScreenSaverScene.m */,
+				ABF4BF092234F6CE000D5A44 /* ToasterDefaults.h */,
+				ABF4BF0A2234F6CE000D5A44 /* ToasterDefaults.m */,
+				ABF4BEE92234F602000D5A44 /* Supporting Files */,
+			);
+			path = "Flying Toasters";
+			sourceTree = "<group>";
+		};
+		ABF4BEE92234F602000D5A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3BE46F2234FE0D004A6626 /* Textures */,
+				ABF4BF072234F6CE000D5A44 /* thumbnail.png */,
+				ABF4BF082234F6CE000D5A44 /* thumbnail@2x.png */,
+				ABF4BEEA2234F602000D5A44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF4BF262234F849000D5A44 /* Flying Toaster Test */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4BF292234F849000D5A44 /* AppDelegate.h */,
+				ABF4BF2A2234F849000D5A44 /* AppDelegate.m */,
+				ABF4BF2E2234F849000D5A44 /* Images.xcassets */,
+				ABF4BF302234F849000D5A44 /* MainMenu.xib */,
+				ABF4BF272234F849000D5A44 /* Supporting Files */,
+			);
+			path = "Flying Toaster Test";
+			sourceTree = "<group>";
+		};
+		ABF4BF272234F849000D5A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4BF282234F849000D5A44 /* Info.plist */,
+				ABF4BF2C2234F849000D5A44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABF4BEE32234F602000D5A44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4BF0B2234F6CE000D5A44 /* FlyingToasterPreferencesController.h in Headers */,
+				ABF4BF0E2234F6CE000D5A44 /* FlyingToasterScreenSaverView.h in Headers */,
+				ABF4BF1F2234F6CE000D5A44 /* ToasterDefaults.h in Headers */,
+				ABF4BF132234F6CE000D5A44 /* ScreenSaverScene.h in Headers */,
+				ABF4BF102234F6CE000D5A44 /* FlyingToastersView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABF4BEE52234F602000D5A44 /* Flying Toasters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4BEF12234F602000D5A44 /* Build configuration list for PBXNativeTarget "Flying Toasters" */;
+			buildPhases = (
+				ABF4BEE12234F602000D5A44 /* Sources */,
+				ABF4BEE22234F602000D5A44 /* Frameworks */,
+				ABF4BEE32234F602000D5A44 /* Headers */,
+				ABF4BEE42234F602000D5A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flying Toasters";
+			productName = "Flying Toasters";
+			productReference = ABF4BEE62234F602000D5A44 /* Flying Toasters.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ABF4BF242234F849000D5A44 /* Flying Toaster Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4BF3F2234F849000D5A44 /* Build configuration list for PBXNativeTarget "Flying Toaster Test" */;
+			buildPhases = (
+				ABF4BF212234F849000D5A44 /* Sources */,
+				ABF4BF222234F849000D5A44 /* Frameworks */,
+				ABF4BF232234F849000D5A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flying Toaster Test";
+			productName = "Flying Toaster Test";
+			productReference = ABF4BF252234F849000D5A44 /* Flying Toaster Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF4BEDD2234F602000D5A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Robert Venturini";
+				TargetAttributes = {
+					ABF4BEE52234F602000D5A44 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ABF4BF242234F849000D5A44 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = ABF4BEE02234F602000D5A44 /* Build configuration list for PBXProject "Flying Toasters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = ABF4BEDC2234F602000D5A44;
+			productRefGroup = ABF4BEE72234F602000D5A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF4BEE52234F602000D5A44 /* Flying Toasters */,
+				ABF4BF242234F849000D5A44 /* Flying Toaster Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF4BEE42234F602000D5A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3BE4702234FE0D004A6626 /* Textures in Resources */,
+				ABF4BF1D2234F6CE000D5A44 /* thumbnail.png in Resources */,
+				ABF4BF1E2234F6CE000D5A44 /* thumbnail@2x.png in Resources */,
+				ABF4BF0D2234F6CE000D5A44 /* FlyingToasterPreferencesController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4BF232234F849000D5A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1F918E24A2EC0A00328849 /* FlyingToasterPreferencesController.xib in Resources */,
+				AB3BE4712234FE14004A6626 /* Textures in Resources */,
+				ABF4BF2F2234F849000D5A44 /* Images.xcassets in Resources */,
+				ABF4BF322234F849000D5A44 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF4BEE12234F602000D5A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4BF202234F6CE000D5A44 /* ToasterDefaults.m in Sources */,
+				ABF4BF112234F6CE000D5A44 /* FlyingToastersView.m in Sources */,
+				ABF4BF0F2234F6CE000D5A44 /* FlyingToasterScreenSaverView.m in Sources */,
+				ABF4BF0C2234F6CE000D5A44 /* FlyingToasterPreferencesController.m in Sources */,
+				ABF4BF142234F6CE000D5A44 /* ScreenSaverScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4BF212234F849000D5A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3BE46E2234FDE1004A6626 /* ToasterDefaults.m in Sources */,
+				AB3BE46D2234FDE1004A6626 /* ScreenSaverScene.m in Sources */,
+				AB3BE46C2234FDE1004A6626 /* FlyingToastersView.m in Sources */,
+				AB3BE46B2234FDE1004A6626 /* FlyingToasterScreenSaverView.m in Sources */,
+				ABF4BF2D2234F849000D5A44 /* main.m in Sources */,
+				ABF4BF2B2234F849000D5A44 /* AppDelegate.m in Sources */,
+				AB3BE46A2234FDE1004A6626 /* FlyingToasterPreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABF4BF302234F849000D5A44 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF4BF312234F849000D5A44 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF4BEEF2234F602000D5A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABF4BEF02234F602000D5A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABF4BEF22234F602000D5A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Flying Toasters/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		ABF4BEF32234F602000D5A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Flying Toasters/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		ABF4BF402234F849000D5A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flying Toaster Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABF4BF412234F849000D5A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Flying Toaster Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF4BEE02234F602000D5A44 /* Build configuration list for PBXProject "Flying Toasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4BEEF2234F602000D5A44 /* Debug */,
+				ABF4BEF02234F602000D5A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF4BEF12234F602000D5A44 /* Build configuration list for PBXNativeTarget "Flying Toasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4BEF22234F602000D5A44 /* Debug */,
+				ABF4BEF32234F602000D5A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF4BF3F2234F849000D5A44 /* Build configuration list for PBXNativeTarget "Flying Toaster Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4BF402234F849000D5A44 /* Debug */,
+				ABF4BF412234F849000D5A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF4BEDD2234F602000D5A44 /* Project object */;
+}

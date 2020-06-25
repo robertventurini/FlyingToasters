@@ -1,0 +1,10 @@
+
+# Mac Attributes
+.DS_Store
+
+## Xcode
+*.xcscmblueprint
+*xcworkspace/xcuserdata/*
+
+## User settings
+xcuserdata
