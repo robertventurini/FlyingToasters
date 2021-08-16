@@ -22,6 +22,11 @@
     if (self = [super initWithFrame:NSZeroRect]) {
         _speed = kMediumSpeed;
         _toastLevel = kGoldenBrownToast;
+        
+        _toasterScene = [[ScreenSaverScene alloc] initWithSize:self.frame.size];
+        _toasterScene.backgroundColor = [NSColor blackColor];
+
+        [self presentScene:_toasterScene];
     }
     
     return self;
@@ -266,16 +271,11 @@
 
 - (void)start
 {
-    self.toasterScene = [[ScreenSaverScene alloc] initWithSize:self.frame.size];
-    self.toasterScene.backgroundColor = [NSColor blackColor];
-    
-    [self presentScene:self.toasterScene];
-    
     NSUInteger toasterCount = self.numOfToasters;
     if (toasterCount) {
         NSUInteger toastIndex = rand() % toasterCount;
         NSUInteger fastToasterIndex = rand() % toasterCount;
-        
+
         [self _addToasterAtIndex:0 toastIndex:toastIndex fastToasterIndex:fastToasterIndex];
     }
 }
@@ -284,9 +284,6 @@
 {
     [self.toasterScene removeAllActions];
     [self.toasterScene removeAllChildren];
-    [self.toasterScene removeFromParent];
-    
-    self.toasterScene = nil;
 }
 
 - (BOOL)acceptsFirstResponder
