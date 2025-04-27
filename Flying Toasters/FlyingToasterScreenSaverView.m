@@ -10,6 +10,8 @@
 #import "FlyingToastersView.h"
 #import "FlyingToasterScreenSaverView.h"
 
+static NSNotificationName const ScreenSaverWillStopNotificationName = @"com.apple.screensaver.willstop";
+
 @interface FlyingToasterScreenSaverView ()
 @property (strong) FlyingToastersView* ftv;
 @property (strong) FlyingToasterPreferencesController* prefsController;
@@ -25,6 +27,12 @@
         _ftv.frame = NSMakeRect(0, 0, frame.size.width, frame.size.height);
         
         [self addSubview:_ftv];
+        
+        
+        [[NSDistributedNotificationCenter defaultCenter] addObserver:self
+                                                            selector:@selector(screenSaverWillStopNotification:)
+                                                                name:ScreenSaverWillStopNotificationName
+                                                              object:nil];
     }
     
     return self;
@@ -69,6 +77,18 @@
     [[FlyingToasterPreferencesController alloc] initWithWindowNibName:@"FlyingToasterPreferencesController"];
     
     return _prefsController.window;
+}
+
+- (void)screenSaverWillStopNotification:(NSNotification*)notification
+{
+    if (@available(macOS 14.0, *)) {
+        // Bug in macOS 14+ warrants forcefully exiting the screensaver
+        // so that the 'legacyScreenSaver' process will also quit and release its memory.
+        // This is hacky, but seems to side step the problem.
+        // This approach was reported working on the aerial screensaver here:
+        // https://github.com/JohnCoates/Aerial/issues/1305
+        exit(0);
+    }
 }
 
 @end
